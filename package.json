@@ -1,30 +1,29 @@
 {
-  "name": "phantomjs-server",
-  "version": "1.9.13",
+  "name": "phantomjs2-server",
+  "version": "1.2.1",
   "keywords": [
     "phantom",
     "phantomjs",
     "selenium",
     "headless"
   ],
-  "description": "PhantomJS Selenium Server",
-  "homepage": "https://github.com/nosco/phantomjs-server",
+  "description": "PhantomJS 2 Selenium Server",
+  "homepage": "https://github.com/hsingh23/phantomjs-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nosco/phantomjs-server.git"
+    "url": "git://github.com/hsingh23/phantomjs-server.git"
   },
   "author": {
-    "name": "Dan Larsen",
-    "email": "dan@techba.se",
-    "url": "http://github.com/morphar"
+    "name": "Harsh Singh",
+    "url": "http://github.com/hsingh23"
   },
   "main": "lib",
   "dependencies": {
-    "phantomjs": "2.1.x",
+    "phantomjs": "2.x",
     "when": "~2.7.1"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nosco/phantomjs-server/issues"
+    "url": "https://github.com/hsingh23/phantomjs-server/issues"
   }
 }

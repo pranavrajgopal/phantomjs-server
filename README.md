@@ -1,5 +1,3 @@
-[![NPM version](https://badge.fury.io/js/phantomjs-server.png)](http://badge.fury.io/js/phantomjs-server)
-
 PhantomJS Server
 =======
 
@@ -11,7 +9,7 @@ This is just a simple script to start a PhantomJS webdriver instead of the Selen
 
 The server.address() works the same way as the selenium-webdriver's version, by responding with a promise that will eventually resolve to the localhost address of PhantomJS.
 
-PhantomJS is 1.9.2-6 as this is, at the time of writing, the last working version on Mac OS X.
+PhantomJS is version 2.
 
 ### Start a PhantomJS server with package.json pretest
 To start a PhantomJS server before running your test scripts, you can create a file that is called pretest like this:
@@ -22,8 +20,8 @@ package.json
   ...
   "devDependencies": {
 	...
-    "selenium-webdriver": "~2.39.0",
-    "phantomjs-server": "1.9.2"
+    "selenium-webdriver": "2.x",
+    "phantomjs-server": "2.x"
   },
   "scripts": {
 	...
