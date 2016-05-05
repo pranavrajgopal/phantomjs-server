@@ -1,5 +1,5 @@
 {
-  "name": "phantomjs2-server",
+  "name": "phantomjs3-server",
   "version": "1.2.1",
   "keywords": [
     "phantom",
@@ -7,14 +7,14 @@
     "selenium",
     "headless"
   ],
-  "description": "PhantomJS 2 Selenium Server",
-  "homepage": "https://github.com/hsingh23/phantomjs-server",
+  "description": "PhantomJS 3 Selenium Server",
+  "homepage": "https://github.com/pranavrajgopal/phantomjs-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hsingh23/phantomjs-server.git"
+    "url": "git://github.com/pranavrajgopal/phantomjs-server.git"
   },
   "author": {
-    "name": "Harsh Singh",
+    "name": "Pranav Rajgopal",
     "url": "http://github.com/hsingh23"
   },
   "main": "lib",
